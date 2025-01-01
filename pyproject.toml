@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "langchain-recipes"
+version = "0.1.0"
+description = ""
+authors = ["Amit Parekh <amit.parekh1@gep.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<=3.13,>=3.10"
+python-dotenv = "^1.0.1"
+chromadb = "^0.5.23"
+langchain = "^0.3.13"
+langchain-openai = "^0.2.14"
+langchain-community = "^0.3.13"
+requests = "^2.32.3"
+pygithub = "^2.5.0"
+crewai = "^0.86.0"
+pydantic = "^2.10.4"
+beautifulsoup4 = "^4.12.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
